@@ -22,10 +22,5 @@ Route.on('/add').render('add')
 Route.post('/add', 'TaskController.store')
 Route.get('/task/:id', 'TaskController.detail')
 Route.get('/remove/:id', 'TaskController.remove')
-
-/* Route.get('/test', () => 'Hello world!')
-Route.get('/test/:id', function({ params }){
-    return `this is the id ${params.id}`;
-})
-
-Route.get('/task', 'TaskController.index') */
+Route.post('/user', 'UserController.create')
+Route.post('/login', 'UserController.login')
