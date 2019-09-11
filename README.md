@@ -1,22 +1,22 @@
 # Iniciar
-$ npm i -g @adonisjs/cli
+$ npm i -g @adonisjs/cli <br>
 $ adonis serve --dev
 
 # .env
-HOST=127.0.0.1
-PORT=3334
-NODE_ENV=development
-APP_URL=http://${HOST}:${PORT}
-CACHE_VIEWS=false
-APP_KEY=KyYp2tlOJ3Y7fbBKfPFAFRmPtbFBEPCx
-DB_CONNECTION=pg
-DB_HOST=127.0.0.1
-DB_PORT=5432
-DB_USER=postgres
-DB_PASSWORD=rihanna
-DB_DATABASE=todolist
-SESSION_DRIVER=cookie
-HASH_DRIVER=bcrypt
+HOST=127.0.0.1 <br>
+PORT=3334 <br>
+NODE_ENV=development <br>
+APP_URL=http://${HOST}:${PORT} <br>
+CACHE_VIEWS=false <br>
+APP_KEY=KyYp2tlOJ3Y7fbBKfPFAFRmPtbFBEPCx <br>
+DB_CONNECTION=pg <br>
+DB_HOST=127.0.0.1 <br>
+DB_PORT=5432 <br>
+DB_USER=postgres <br>
+DB_PASSWORD=rihanna <br>
+DB_DATABASE=todolist <br>
+SESSION_DRIVER=cookie <br>
+HASH_DRIVER=bcrypt <br>
 
 
 
